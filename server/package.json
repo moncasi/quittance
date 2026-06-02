@@ -1,0 +1,16 @@
+{
+  "name": "quittance-server",
+  "version": "0.1.0",
+  "description": "API de génération de quittances de loyer (PDF)",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "pdfkit": "^0.15.0"
+  }
+}
